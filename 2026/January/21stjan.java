@@ -8,7 +8,7 @@
 // You must minimize ans[i]. If it is not possible, set ans[i] = -1.
 //
 // Return the resulting array as an int[].
-
+import java.util.*;
 class Solution {
     public int[] minBitwiseArray(List<Integer> nums) {
         int n = nums.size();
